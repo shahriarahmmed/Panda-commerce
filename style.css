@@ -1,6 +1,20 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 .hero-section {
     background-color: #FEEAE9 !important;
+}
+#watch-bg {
+    padding: 50px;
+    background: linear-gradient(#FF9C35, #FFD019);
+}
+#bag-bg {
+    padding: 50px;
+    background: linear-gradient(#FF589B, #FF136F);
+}
+#shoes-bg {
+    padding: 50px;
+    background: linear-gradient(#4289FF, #3F07F8);
 }

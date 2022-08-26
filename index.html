@@ -2,43 +2,155 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panda eCommerce</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/panda.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda eCommerce</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/panda.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 </head>
 
 <body>
-    <header>
-        
-    </header>
-    
-    <section class=" container d-flex rounded-3 hero-section d-flex align-items-center px-5">
-        <div >
-            <h1 class="pb-3" >Mi LED TV 4A PRO 32</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, aut adipisci nesciunt eligendi iste eum magni
-                numquam culpa temporibus neque?
-            </p>
-            <div class="d-flex flex-column">
-                <span class="display-6 pb-3">$1289</span>
-                <button class="btn btn-info text-white d-grid col-3">Buy Now</button>
-            </div>
-            
+  <header>
+    <!-- nav bar section -->
+    <nav class="navbar navbar-expand-lg bg-light mb-5">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="dhanshiri-mart.png" alt="" height="40px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-0" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success " type="submit"><i
+                class="fa-solid fa-magnifying-glass"></i></i></button>
+          </form>
         </div>
-        <div>
-            <img class="img-fluid" src="images/banner-images/tv.png" alt="">
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="container d-flex rounded-3 hero-section d-flex align-items-center p-5">
+      <div class="m-3">
+        <h1 class="pb-3">Mi LED TV 4A PRO 32</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, aut adipisci nesciunt eligendi iste eum magni
+          numquam culpa temporibus neque?
+        </p>
+        <div class="d-flex flex-column">
+          <span class="display-6 pb-3">$1289</span>
+          <button class="btn btn-info text-white d-grid col-3">Buy Now</button>
         </div>
+
+      </div>
+      <div>
+        <img class="img-fluid" src="images/banner-images/tv.png" alt="">
+      </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+
+    <!-- Categories section -->
+    <section class="container">
+      <div class="m-3">
+        <h2 class="m-3">Categories</h2>
+        <div class="justify-content-between m-3 gy-3">
+          <div class="d-inline rounded mx-3" id="watch-bg">
+            <p class=" d-inline fs-2 fw-semibold text-white">Watch</p>
+            <img src="images/categories/watch.png" alt="" height="100px" width="100px">
+          </div>
+          <div class="d-inline rounded mx-3" id="bag-bg">
+            <p class=" d-inline fs-2 fw-semibold text-white">Bag</p>
+            <img src="images/categories/bag.png" alt="" height="100px" width="100px">
+          </div>
+          <div class="d-inline rounded mx-3" id="shoes-bg">
+            <p class=" d-inline fs-2 fw-semibold text-white">Shoes</p>
+            <img src="images/categories/shoes.png" alt="" height="100px" width="100px">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="m-5 bg-grey ">
+        <!-- shoes section -->
+        <div>
+          <div class="d-flex justify-content-between">
+            <h3 class="d-inline fw-semibold">Shoes</h3>
+            <p class="d-inline text-warning">See All</p>
+          </div>
+          <!-- card section -->
+          <div class="d-flex flex-row m-3">
+            <!-- card-1 -->
+            <div class="card m-3" style="width: 18rem;">
+              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <span class="d-block fs-5 fw-semibold text-center">$1290</span>
+                <button class="btn btn-dark text-center">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card m-3" style="width: 18rem;">
+              <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <span class="d-block fs-5 fw-semibold text-center">$1290</span>
+                <button class="btn btn-dark text-center">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <!-- card-3 -->
+            <div class="card m-3" style="width: 18rem;">
+              <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <span class="d-block fs-5 fw-semibold text-center">$1290</span>
+                <button class="btn btn-dark text-center">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <!-- card-4 -->
+            <div class="card m-3" style="width: 18rem;">
+              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <span class="d-block fs-5 fw-semibold text-center">$1290</span>
+                <button class="btn btn-dark text-center">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d9bb722541.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
