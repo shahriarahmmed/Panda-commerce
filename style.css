@@ -18,3 +18,9 @@ body {
     padding: 50px;
     background: linear-gradient(#4289FF, #3F07F8);
 }
+.bg-grey {
+    background-color: #F4F4F4;
+}
+.snd-btn {
+    background: linear-gradient(#FF589B, #FF136F);
+}
